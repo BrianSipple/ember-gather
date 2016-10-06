@@ -11,7 +11,7 @@
     "start": "ember server",
     "test": "ember try:each"
   },
-  "repository": "",
+  "repository": "https://github.com/BrianSipple/ember-gather",
   "engines": {
     "node": ">= 0.12.0"
   },
@@ -41,7 +41,12 @@
     "loader.js": "^4.0.10"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-computed",
+    "computed-gather",
+    "macros",
+    "computed property macros",
+    "ember gather"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.7"
