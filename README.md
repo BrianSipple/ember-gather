@@ -12,7 +12,7 @@ _A handy pair of macros for computing flattened arrays._
 
 ## Usage
 
-Use `gather` when you just need to gather the **top-level value of each property** into a list:
+Use `gather` when you just need to flatten the **top-level value of each property** into a list:
 
 ```js
 import { gather } from 'ember-gather';
@@ -27,7 +27,7 @@ export default Component.extend({
 
 ```
 
-Use `deepGather` when you need to gather **all items within all values of value of each property** into a list:
+Use `deepGather` when you need to flatten **all items within all values of each property** into a list:
 
 ```js
 import { deepGather } from 'ember-gather';
