@@ -1,5 +1,7 @@
 # ember-gather
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/BrianSipple/ember-gather.svg)](https://greenkeeper.io/)
+
 _A handy pair of macros for computing flattened arrays._
 
 [![Latest NPM release][npm-badge]][npm-badge-url]
