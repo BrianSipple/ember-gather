@@ -1,6 +1,5 @@
-import computed from 'ember-computed';
-import get from 'ember-metal/get';
-import { A, isEmberArray as isArray } from 'ember-array/utils';
+import { get, computed } from '@ember/object';
+import { isArray, A } from '@ember/array';
 
 export default function deepGather(...dependentKeys) {
 
