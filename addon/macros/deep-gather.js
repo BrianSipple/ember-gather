@@ -1,6 +1,4 @@
-import computed from 'ember-computed';
-import get from 'ember-metal/get';
-import { A, isEmberArray as isArray } from 'ember-array/utils';
+const { computed, get, A, isArray } = Ember;
 
 export default function deepGather(...dependentKeys) {
 
