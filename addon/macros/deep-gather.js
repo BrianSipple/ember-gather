@@ -1,4 +1,5 @@
-const { computed, get, A, isArray } = Ember;
+import { get, computed } from '@ember/object';
+import { isArray, A } from '@ember/array';
 
 export default function deepGather(...dependentKeys) {
 
